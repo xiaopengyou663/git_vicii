@@ -1,0 +1,417 @@
+html {
+	font-size: calc(100vw/3.75);
+}
+html {font-size: 62.5%;/*10 ÷ 16 × 100% = 62.5%*/}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*=======================================*/
+/*header********************/
+.header{
+	height:80px;
+	line-height: 80px;
+	z-index: 11;
+	background: #fff;
+	border: none;
+	margin-bottom: 0;
+}
+@media (min-width:768) {
+	.li_80, .li_80 li a{
+		height: 80px;
+		line-height: 80px;
+	}
+}
+.pad_0{
+	padding: 0;
+}
+.mar_23{
+		margin: 23px;
+}
+.bg_bl{
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 0 0 5px 5px
+}
+@media (min-width:768px){
+	.bg_bl{
+		border:none;
+	}
+	.nav li a{
+		padding: 0;
+		line-height: 80px;
+	}
+}
+.logo{
+	height: 80px;
+	line-height: 80px;
+}
+.header .logo img{
+	height: 80%;
+}
+@media (min-width:768px){
+	.nav li{
+		float: left;
+		padding: 0 10px;
+	}
+}
+.header .search{
+	height: 40px;
+	width: 99%;
+	line-height: 40px;
+	margin-top: 20px;
+	float: left;
+}
+.search input{
+	border: 1px solid #ccc;
+	padding-left: 10px;
+}
+.iconSearch{
+	position: absolute;
+	right: 25px;
+}
+/*header end********************/
+/*banner*********************/
+.bannerBox{
+	position: relative;
+}
+.banner{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.banner img{
+	width: 100%;
+	display: none;
+}
+.banner img:first-child{
+	display: block;
+}
+.icon{
+	position: relative;
+	top: -25px;
+	text-align: center;
+}
+.icon span{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	line-height: 10px;
+	background: #000;
+	margin: 0 10px;
+	color: #fff;
+	padding: 5px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.active{
+	background: red !important;
+}
+.iconButton{
+	position: absolute;
+	bottom: 50%;
+	background: rgba(0, 0, 0, 0.2);
+	color: #fff;
+	cursor: pointer;
+	padding: 5px 0;
+}
+.iconButton i{
+	font-size:25px;
+}
+.iconR{
+	right: 0;
+}
+/*banner end********************/
+/*article********************/
+.article{
+	margin: 20px 0;
+}
+/*left********/
+@media (min-width: 768px) {
+	.cont_left{
+		padding-right: 50px;
+	}
+}
+
+.line{
+	border-bottom: 1px dotted #ccc;
+	padding-bottom:5px;
+	margin-bottom: 20px;
+}
+.article_tit{
+	margin: 10px 0;
+}
+.article_tit h4{
+	font-weight: 700;
+}
+.colorRed{
+	color: red !important;
+}
+.article_tit h4 a:hover{
+	/*color: red;*/
+}
+.article_new p{
+	font-size: 28px;
+	font-weight: 800;
+	color: #c3543b;
+	margin-bottom: 10px;
+}
+.art_box{
+	display: flex;
+	flex-direction:row;
+}
+.article_pic{
+}
+.article_pic img{
+	width: 100%;
+	padding: 5px;
+	border: 1px solid #ccc;
+}
+.article_cont{
+	font-size: 12px;
+	text-indent: 2em;
+	flex-grow:1;
+	margin-left: 20px;
+}
+@media (min-width:768px) {
+	.article_cont{
+		font-size: 14px;
+	}
+}
+.art_time{
+	margin:10px 0 20px;
+	padding: 3px 10px;
+	color: #333;
+	background: #eee;
+	font-size: 12px;
+}
+.art_time em{
+	margin-right: 10px;
+}
+/*left end*/
+/*right*******/
+.cont_right{
+	padding-left: 30px;
+	margin-top: 50px;
+}
+@media (min-width: 768px) {
+	.cont_right{
+		border-left: 1px solid #ccc;
+	}
+ }
+.weather {
+	height: 100px;
+	border: 1px solid #ccc;
+}
+/*热门文章*/
+.right_art{
+	margin: 20px 0 10px 0;
+	padding-top:10px;
+	font-size: 18px;
+	font-weight: 700;
+	color: #56af08;
+	border-top: 1px dotted #bbb;
+}
+.tilList{
+	padding-left: 30px !important;
+	padding-bottom: 10px;
+	border-bottom: 1px dotted #bbb;
+}
+.tilList li{
+	list-style: circle;
+	padding-bottom:3px;
+}
+.right_artNew{
+	border-top: 0;
+	padding-top:0;
+}
+.friendLink li{
+	margin: 0 0 5px 10px;
+}
+.friendLink li a:first-child{
+	margin-right: 20px;
+}
+/*right end*/
+/***********article end************/
+/*********footer***********/
+.footer{
+	line-height: 40px;
+	background: #333;
+	text-align: center;
+	color: #fff;
+}
+/*footer*/
+/*==============index end=============================*/
+
+/*==============MOOD=====================*/
+.lineT{
+	border-top:1px solid #ccc;
+}
+.cont_rightMood{
+	margin-top: 0;
+}
+.navTit a{
+	display: inline-block;
+	padding: 15px 20px;
+	background: #5eaf08;
+	color: #fff;
+}
+.navTit a:last-child{
+	background: #94bb6b;
+}
+.line2{
+	padding-bottom: 0;
+}
+.article_cont{
+	position: relative;
+}
+.art_box a{
+	text-align: center;
+	display: inline;
+	padding: 5px;
+	background: orange;
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	text-indent: 0;
+	border-radius: 5px;
+}
+@media (min-width:768px) {
+	.art_box a{
+		padding: 5px 10px;
+	}
+}
+/*==============MOOD end=====================*/
+
+/*==============moodDetails mood详情页=====================*/
+.content_art{
+	margin-bottom: 20px;;
+}
+.content_title{
+	text-align: center;
+}
+.art_timeDe{
+	text-align: center;
+	margin-bottom: 0;
+	background: none;
+	margin-top: 5px;
+}
+.content{
+	margin-left: 0;
+	margin-top: 5px;
+	line-height: 150%;
+	text-align: justify;
+}
+.content img{
+	width: 95%;
+	margin-top: 10px;
+	margin-left: 2.5%;
+}
+/*======essay=========*/
+.essayWord{
+	padding: 10px 20px;
+	border: 1px solid #ddd;
+	background: #eee;
+	border-radius: 25px 5px 25px 5px;
+}
+.navTit2{
+	margin-left: 15px;
+}
+.Update_time{
+	text-align: right;
+	margin-top: 10px;
+}
+.update_time span{
+	display: inline;
+}
+.timeR{
+	text-align: right;
+	margin-bottom: 5px;
+}
+.cont_rightEssay{
+	border: none;
+}
+.cont_leftPad{
+	padding-right: 10px;
+	margin-bottom: 5px;
+}
+@media (min-width:768px) {
+	.update_time{
+		background:#94bb6b;
+		padding: 10px 20px;
+		border-radius: 0 20px;
+		color: #fff;
+		text-align: center;
+	}
+	.update_time span{
+		display: none;
+	}
+	.cont_leftPad{
+		margin-bottom: 20px;
+	}
+}
+/*=====moodDetails mood详情页 end====*/
+/*==========about============*/
+.aboutMe{
+	margin-left: 15px;
+}
+.info_me ul{
+	background:#eee;
+	border-radius: 5px;
+	padding: 20px 20px 0;
+}
+.info_me ul li{
+	width: 100%;
+	background: rgba(253,170,170,0.5);
+	text-align: center;
+	padding: 2%;
+	text-indent: 0;
+	border-radius: 5px;
+	margin-bottom:20px;
+	color: #555;
+}
+.info_me ul li h4{
+	margin-bottom: 10px;
+}
+@media(min-width:768px) {
+	.info_me ul li{
+		float: left;
+		width: 21%;
+		text-align: center;
+		margin:2%;
+	}
+	.info_me ul{
+		padding: 0;
+	}
+}
+.skills{
+	margin-top: 20px;
+}
+.skills p{
+	text-indent: 2em;
+}
+.skills h4{
+	text-indent: 0;
+}
+.skills h5{
+	margin: 10px 0;
+	text-indent: 0;
+}
+.evaluation{
+	border-top: 1px dotted #ccc;
+}
+.evaluation h4{
+	padding: 10px 0;
+}
+
+
+
+
+
+
+/*==========aboutme end==========*/
